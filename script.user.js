@@ -19,8 +19,9 @@
 
 (function () {
   const cookies = [
-    "pt_pin=shunia;pt_key=AAJfqlIGADANJuQiGcGVoJxkxLRXgVEB4sqEVvXBFYV7IVa46qifOr10l_6ZVwjvHaWiOufIlTo;",
-    "pt_pin=jd_652d521e59733;pt_key=AAJfoNW3ADD-1NLWTSxKk4dhtnLhGnvHnRZSdDaB5IP5t0eKPROTSahhwwTJXZUksLklyOBCCkQ;",
+    "pt_pin=shu0802;pt_key=pt_key=AAJgDO64ADAi57c4suDd0pc-3wNAcT_qZFwpr3q_cC6dEW2XET_DT3OTG7XVP8m1xANt_jss8cY;",
+    "pt_pin=jd_KsbOAdcHWAje;pt_key=AAJgDPPwADAhE0bcNPvRDrkivL8WUmYXAc9f3scUqE4opkY0Jb3BlVpV4WrQK6lYiI8Y45xNBFM;",
+    "pt_pin=jd_4230573cf857c;pt_key=AAJgENsFADA7bsqHLdXel5RimQ3RI3cJlUNg7zAVa2rCxykzTfFB6DyLLGDLteJuiEP0SeOjXO4;",
   ];
 
   const project = "jd_scripts";
@@ -34,7 +35,7 @@
       responseType: "text",
       headers: {
         "User-Agent":
-          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36",
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36",
       },
       onload: (resp) => {
         console.log(`[jd_scripts] loaded: ${url}`);
