@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         jd_scripts_runner
+// @name         jd_scripts
 // @namespace    http://qfhuang.pw/
 // @version      0.4
 // @description  Run jd_scripts in your browser
